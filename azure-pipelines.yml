@@ -15,7 +15,7 @@ steps:
     mavenPomFile: 'java-hello-world-with-maven-master/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.8'
+    jdkVersionOption: '1.7'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     goals: 'package'
